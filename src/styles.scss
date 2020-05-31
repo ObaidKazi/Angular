@@ -1,7 +1,6 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import 'variables';
 @import '../node_modules/font-awesome/scss/font-awesome';
-
-
 
 $lt-gray: #ddd;
 $background-dark: #512DA8;
@@ -31,6 +30,10 @@ $divider-color:        #BDBDBD;
   }
 .text-floral-white {
     color: floralwhite!important;
+}
+
+.primary{
+	background-color:$primary-color!important;
 }
 
 .flex-spacer {
